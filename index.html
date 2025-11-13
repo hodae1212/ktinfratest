@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KT Cloud Infra</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3em;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .btn {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: #00c6ff;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0072ff;
+      color: #fff;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>KT Cloud Infra</h1>
+  <p>클라우드의 미래를 여는 기술, 지금 시작하세요.</p>
+  <button class="btn" onclick="alert('쌈뽕하게 시작합니다!')">시작하기</button>
+</body>
+</html>
