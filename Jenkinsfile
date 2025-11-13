@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git scm update'){
       steps{
-        git url: 'https://github.com/hodae1212/ktinfratest.git', brach: 'master'
+        git url: 'https://github.com/hodae1212/ktinfratest.git', branch: 'master'
 
       }
     }
